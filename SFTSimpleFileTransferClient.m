@@ -10,7 +10,7 @@
 #import <netinet/in.h>
 #import "Megalog.h"
 
-#define SFT_TIMEOUT 10.0
+#define SFT_TIMEOUT 60.0
 static void randomizeHexByteArray(char * bytes, size_t length);
 
 @interface SFTSimpleFileTransferClient()

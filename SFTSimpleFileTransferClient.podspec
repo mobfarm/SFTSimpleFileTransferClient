@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SFTSimpleFileTransferClient"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A short description of SFTSimpleFileTransferClient."
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mobfarm/SFTSimpleFileTransferClient.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/mobfarm/SFTSimpleFileTransferClient.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
